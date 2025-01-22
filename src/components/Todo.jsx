@@ -53,6 +53,7 @@ const Todo = () => {
         <button
           type="submit"
           className="py-2 px-4 outline-none border-none font-bold bg-blue-700 rounded-md text-white"
+          disabled={!input.trim()}
         >
           Submit
         </button>
