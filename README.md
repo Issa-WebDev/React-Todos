@@ -11,11 +11,11 @@
 2. Install all dependencies
 
 ```bash
-	git i
+	npm i
 ```
 
 3. Run the server🚀
 
 ```bash
-	git i
+	npm run dev
 ```
