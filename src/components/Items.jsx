@@ -8,7 +8,7 @@ const Items = ({ id, text, onDelete }) => {
       exit={{ opacity: 0 }}
       className="w-full flex flex-col"
     >
-      <li className="relative w-full px-4 py-2 rounded-md font-semibold mb-2 bg-white">
+      <li className="relative text-gray-800 w-full px-4 py-2 rounded-md font-semibold mb-2 bg-white">
         {text}
         <button
           className="absolute rounded-sm right-3 bg-red-200"

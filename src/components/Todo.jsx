@@ -19,13 +19,13 @@ const Todo = () => {
     e.preventDefault();
 
     if (input.trim()) {
-      setTodos([...todos, { id: Date.now(), text: input }]);
+      setTodos((todos) => [...todos, { id: Date.now(), text: input }]);
       setInput("");
     }
   };
 
   const handleDelete = (id) => {
-    setTodos(todos.filter((todo) => todo.id !== id));
+    setTodos((todos) => todos.filter((todo) => todo.id !== id));
   };
 
   return (
